@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html lang=en>
+	<head> 
+		<title> My Notes </title>
+		<link rel="stylesheet" href="cssnotes.css">
+		<meta name="author" 				content="Carissa">
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+	<header>
+		<h1 style="text-align:center;font-size:35px"><strong><u>How to Code Websites</u></strong></h1>
+		<div class="navbar">
+		<nav>
+		<ul class="nav">
+		<li><a href="#steps">How-to</a></li>
+		<li><a href="#tips">Tips</a></li>
+		<li><a href="#feedback">Feedback</a></li>
+		<li><a href="#links">Links</a></li>
+		</ul>
+		</nav>
+		</div>
+	</header>
+	
+	<section>
+	<h2>About Coding</h2>
+	<details>
+		<summary>What is HTML?</summary>
+		<p>HTML stands for HyperText Markup 		Language. HTML is the 					<strong>basic structure</strong> of 		a website. You can add all sorts 		of things using HTML code!</p>
+		<p id="including">Including:</p>
+		<ul>
+			<li>Titles (what displays on the 			tab)</li>
+			<li>Headings 1-6 for size</li>
+			<li>Images and links</li>
+			<li>Video and audio</li>
+			<li>Forms and buttons</li>
+			<li>Numbered and bulleted 				lists</li>
+			<li>Paragraphs</li>
+			<li>Basic Styling</li>
+			<li>Accessibility</li>
+		</ul>
+		</details>
+		<details>
+		<summary>What is CSS?</summary>
+		<p>CSS stands for Cascading Style Sheets. It's the color and <strong>styling</strong> of the website.</p>
+		</details>
+	</section>
+	
+	<img src="https://media.istockphoto.com/id/1271348075/vector/website-development-and-web-support-services-line-icons-hosting-and-software-settings-vector.jpg?s=612x612&w=0&k=20&c=9Vyd9h1Or8qddc_nKMQQi71954Dx49unMOyLsvmvBCc=" alt="Black icons with white background. The icons are different coding symbols.">
+
+	<main>
+	<section>
+	<h2 id="steps">How-to Steps</h2>
+	<ol>
+		<li>Add the doc type and opening and closing HTML</li>
+		<li>Add a head section and body section. Add a title and meta information in the head section. (Always include charset, preferably UTF-8)</li>
+		<li>Add heading in the body section, along with elements like lists, paragraphs, images, and so on.</li>
+		<li>Add things to help with accessibility.<br>Examples:<ul> 
+		<li><strong>strong</strong> and <em>emphasis</em> tags</li> 		
+		<li style="color:#FFC40A;border:solid 2px #8AB9F1">You can also change the color and other aspects</li>
+		<li>alt for img description</li>
+		<li>footer, main and section 			tags</li>		
+		<li><address>address</address>and 		time tags</li> 		
+		<li><abbr title="abbreviation">abbr		</abbr> and so on.</li></ul>
+		<li>Add styling and start using some CSS aspects for details.</li>
+	</ol>
+	</section>
+	</main>
+	
+	<aside>
+	<h3 id="tips">Tips/tricks</h3>
+	<ul>
+		<li>You can put the br tag for a 		line break</li>
+	</ul>
+	</aside>
+	
+	<section id="forms">
+		<h4 id="feedback">Give feedback!</h4>
+		<form action="mailto:carissamae77@gmail.com">
+		<label for="username">Name (optional):</label>
+		<input type="text" id="username" name="username" class="f"><br>
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required>
+		<fieldset class="fm">
+			<legend>Gender</legend>
+		<input type="checkbox" id="fem" name="gender" value="fem">
+		<label for="fem">Female/feminine</label><br>
+		<input type="checkbox" id="masc" name="gender" value="masc">
+		<label for="masc">Male/masculine</label><br>
+		<input type="checkbox"  id="nb" name="gender" value="nb">
+		<label for="nb">Non-binary or genderqueer</label><br>
+		<input type="checkbox" id="other" name="gender" value="other">
+		<label for="other">Other/prefer not to answer</label>
+		</fieldset>
+		<label for="fb">Give me feedback:</label>
+		<textarea id ="fb" name="feedback" rows="5" cols="40">
+		</textarea><br>
+		<input type="submit" value="Send" class="button">
+		</form>
+	</section>
+	
+	<footer>
+	<section>
+	<h5 id="links">Helpful Links</h5>
+		<a rel="external" href="https://www.w3schools.com/tags/ref_byfunc.asp">All HTML tags</a><br>
+		<a rel="external" href="https://www.w3schools.com/tags/ref_attributes.asp">All HTML attributes</a><br>
+		<a rel="external" href="https://www.w3schools.com/html/html_examples.asp">HTML examples</a><br>
+	<hr>
+		<a href="#top">Back to top</a>
+	</section>
+	</footer>
+	</body>
+</html>
